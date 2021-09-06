@@ -1,20 +1,16 @@
-import './App.css';
-import Header from './components/header';
-import Footer from './components/footer';
-import Main from './components/Main';
 
-
-
+import React from 'react';
+import Body from './Body';
+import Footer from "./Footer"
+import Header from './Header'
 function App() {
-
-  
   return (
     <div className="App" >
-      <Header/>
-      <Main />
-      <Footer year={new Date().getFullYear()} />
-
-    </div>
+    <Header/>
+      <Body   />
+      <Footer />
+     
+</div>
 
   );
 }
