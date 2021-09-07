@@ -1,0 +1,70 @@
+#app{
+    height: 100vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+#nav-bar{
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+}
+
+#nav-bar ul{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#footer{
+    background-color: lightgreen;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.Weather{
+    height: 50vw;
+    width: 50vh;
+    background-image: linear-gradient(to bottom,
+     rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+   
+}
+
+.searchbox .search {
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 30px;
+    width: 100%;
+    
+  }
+  
+  .locationbox .location{
+    color: #FFF;
+    font-size: 75px;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  }
+  
+  .date {
+    color: #FFF;
+    font-size: 20px;
+  }
+  
+  .weatherbox .weather {
+    color: #FFF;
+    font-size: 25px;
+  }
+    
+    .temp{
+    color: #FFF;
+    font-size: 75px;
+  }
