@@ -141,10 +141,3 @@ h1 {
 }
 
 
-
-@media (max-width: 600px){
-  #app{
-        height: 100vh;
-        font-size: 1vw;
-  }
-}
