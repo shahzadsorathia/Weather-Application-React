@@ -15,7 +15,7 @@ function NavBar() {
                     <Link to="/Weather"> Weather App </Link>
                 </li>
                 <li>
-                    <Link to="/Contact"> Contact </Link>
+                    <Link to="/Calculator"> Calculator </Link>
                 </li>
             </ul>
         </nav>

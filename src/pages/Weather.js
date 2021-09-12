@@ -4,7 +4,7 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
-function Weather() {
+const Weather = () =>{
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
@@ -30,7 +30,9 @@ function Weather() {
   }
 
   return (
+    
     <div className="Weather">
+      <h1> Weather Forecast </h1>
       <div className="searchbox">
         <input
           type="text"
