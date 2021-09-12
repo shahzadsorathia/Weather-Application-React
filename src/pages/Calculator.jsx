@@ -17,7 +17,6 @@ function Calculator() {
                     onChange={e => SNum1(+ e.target.value)}
                     placeholder="0"
                 />
-
                 <input type="number"
                     className="input-box"
                     value={Num2}
@@ -26,12 +25,11 @@ function Calculator() {
                 />
             </div>
             <div className="button-on">
-                <div> <button className="onclick-button" onClick={() => Stotal(Num1 + Num2)}> Add </button></div>
-                <div> <button className="onclick-button" onClick={() => Stotal(Num1 - Num2)}> Sub </button> </div> 
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 + Num2)}> Add </button> </div>
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 - Num2)}> Sub </button> </div>
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 * Num2)}> Mul </button> </div>
-                <div> <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button>
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button> </div>
             </div>
-</div>
             <h1> {total}</h1>
         </div>
     )
