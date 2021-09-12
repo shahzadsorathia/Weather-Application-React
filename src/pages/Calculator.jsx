@@ -25,13 +25,13 @@ function Calculator() {
                     placeholder="0"
                 />
             </div>
-            <div className="button">
-                <button className="onclick-button" onClick={() => Stotal(Num1 + Num2)}> Add </button>
-                <button className="onclick-button" onClick={() => Stotal(Num1 - Num2)}> Sub </button>
-                <button className="onclick-button" onClick={() => Stotal(Num1 * Num2)}> Mul </button>
-                <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button>
-              
+            <div className="button-on">
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 + Num2)}> Add </button></div>
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 - Num2)}> Sub </button> </div> 
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 * Num2)}> Mul </button> </div>
+                <div> <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button>
             </div>
+</div>
             <h1> {total}</h1>
         </div>
     )

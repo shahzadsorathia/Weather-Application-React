@@ -27,10 +27,9 @@
 }
 
 .Weather{
-    height: 50%;
+    height: 100%;
     width: 20vw;
-    background-image: linear-gradient(to bottom,
-     rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+    background-image: url(images/weather.png);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -51,7 +50,12 @@
     align-content: center;
     
   }
-  
+  .title{
+    color: #FFF;
+    font-size: 50px;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    align-content: center;
+  }
   .locationbox .location{
     color: #FFF;
     font-size: 75px;
@@ -80,38 +84,67 @@
   
   .Calculator
   {
+    background-image: url(images/math.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     border: 1px solid black ;
-    height: 40vh;
-    width: 50vw;
-    background: #392767;
+    height: 100%;
+    width: 50%;
+    background: ;
   }
 
   .input-box {
-    font-size: 80px;
+    font-size: 100px;
     border-radius: 10px;
-    border: 1px solid #d2c0fd;
+    border: 1px solid #fbff04;
     width: 25%;
     text-align: center;
-    background: #d2c0fd;
+    background: #9d9aa5;
     
   }
-  .Input {
+  .Input  {
     display: flex;
     justify-content: space-around;
+  }
+  
+  .button-on{
+   display: flex;
+  justify-content: space-between;
+  width: 90%;
   }
 
 .onclick-button {
   font-size: 50px;
-  border-radius: 20px ;
-  background: #5f30e6;
-  border: none;
+  border-radius: 10px ;
+  background: #307fe6;
   color: #d7cbf7;
   cursor: pointer;
-  align-items: center;
-
+  text-align: center;
+  
 }
 
+h1 {
+  font-size: 50px;
+  border-radius: 30px;
+    width: 75%;
+  text-align: center;
+  background: #9d9aa5;
+}
+
+.home{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+@media (max-width: 600px){
+  #app{
+        height: 100vh;
+        font-size: 1vw;
+  }
+}

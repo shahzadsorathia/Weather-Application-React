@@ -1,10 +1,14 @@
 import React from 'react'
+import Calculator from './Calculator'
+import Weather from './Weather'
 
 const Home = () => {
     return (
-        <div> 
-     <Calculator />
+        <div className="home"> 
+     
      <Weather />
+     
+     <Calculator/>
         </div>
     )
 }

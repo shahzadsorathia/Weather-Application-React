@@ -32,7 +32,7 @@ const Weather = () =>{
   return (
     
     <div className="Weather">
-      <h1> Weather Forecast </h1>
+      <h2 className="title"> Weather Forecast </h2>
       <div className="searchbox">
         <input
           type="text"

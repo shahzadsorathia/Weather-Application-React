@@ -11,7 +11,8 @@ import Weather from './Weather';
 function App() {
   return (
     <div id="app">
-      <NavBar />
+   
+       <NavBar />
       <Switch>
         
          <Route path="/Calculator">
@@ -27,7 +28,7 @@ function App() {
         </Route> 
         
       </Switch>
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
