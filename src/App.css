@@ -21,7 +21,7 @@
 }
 
 #footer{
-    background-color: rgb(103, 110, 103);
+    background-color: rgb(114, 109, 109);
     height: 50px;
     text-align: center;
     width: 100%;
@@ -89,12 +89,13 @@
   .Calculator
   {
     background-image: url(images/math.jpg);
+    background-size: 100% 790%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black ;
-    height: 90%;
+    border: 2px solid black ;
+    height: 95%;
     width: 50%;
     
   }
@@ -148,7 +149,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   height: 95%;
-  width: 95%;
+  width: 75%;
   
 }
 
