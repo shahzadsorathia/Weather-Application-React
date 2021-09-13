@@ -22,7 +22,7 @@ function App() {
           <Weather />
         </Route>
 
-        <Route path="/Home">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
