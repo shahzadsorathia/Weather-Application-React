@@ -1,34 +1,33 @@
 import React from 'react';
-import { Link, Router } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import "../App.css";
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
 import Weather from './Weather';
- import Calculator from './Calculator';
+import Calculator from './Calculator';
 
 function App() {
   return (
     <div id="app">
-   
-       <NavBar />
+
+      <NavBar />
+
       <Switch>
-        
-         <Route path="/Calculator">
+        <Route path="/Calculator">
           <Calculator />
         </Route>
-      
-        <Route path="/Weather"> 
+
+        <Route path="/Weather">
           <Weather />
         </Route>
-        
-         <Route path="/Home">
+
+        <Route path="/Home">
           <Home />
-        </Route> 
-        
+        </Route>
       </Switch>
-      <Footer /> 
+
+      <Footer />
     </div>
   );
 }

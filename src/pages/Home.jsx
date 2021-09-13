@@ -4,11 +4,11 @@ import Weather from './Weather'
 
 const Home = () => {
     return (
-        <div className="home"> 
-     
-     <Weather />
-     
-     <Calculator/>
+        <div className="home">
+
+            <Weather />
+            <Calculator />
+
         </div>
     )
 }
