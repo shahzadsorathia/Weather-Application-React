@@ -1,47 +1,42 @@
-#app{
+#app {
     height: 100vh;
     display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color: rgb(218, 218, 218);
-   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
 }
-#nav-bar{
+
+#nav-bar {
     background-color: rgb(161, 159, 159);
     height: 50px;
     width: 100%;
 }
 
-#nav-bar ul{
-    
+#nav-bar ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
 
-#footer{
+#footer {
     background-color: rgb(114, 109, 109);
     height: 50px;
     text-align: center;
     width: 100%;
 }
 
-.Weather{
+.Weather {
     height: 95%;
     width: 20vw;
-    background-image: url(images/weather.png); 
-    
+    background-image: url(images/weather.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     text-align: center;
-     
-
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .searchbox .search {
@@ -52,105 +47,95 @@
     font-size: 30px;
     width: 75%;
     align-content: center;
-    
-  }
-  .title{
+}
+
+.title {
     color: #FFF;
     font-size: 50px;
     text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
     align-content: center;
-  }
-  .locationbox .location{
+}
+
+.locationbox .location {
     color: #FFF;
     font-size: 75px;
     text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
     align-content: center;
-  }
-  
-  .date {
+}
+
+.date {
     color: #FFF;
     font-size: 20px;
     align-content: center;
-  }
-  
-  .weatherbox .weather {
+}
+
+.weatherbox .weather {
     color: #FFF;
     font-size: 25px;
     align-content: center;
-  }
-    
-    .temp{
+}
+
+.temp {
     color: #FFF;
     font-size: 75px;
     align-content: center;
-  }
+}
 
-  
-  .Calculator
-  {
+.Calculator {
     background-image: url(images/math.jpg);
     background-size: 100% 790%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black ;
+    border: 2px solid black;
     height: 95%;
     width: 50%;
-    
-  }
+}
 
-  .input-box {
+.input-box {
     font-size: 100px;
     border-radius: 10px;
     border: 1px solid #fbff04;
     width: 25%;
     text-align: center;
     background: #9d9aa5;
-    
-  }
-  .Input  {
+}
+
+.Input {
     display: flex;
     justify-content: space-around;
-    
-  }
-  
-  .button-on{
-   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  
-  }
+}
+
+.button-on {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
 
 .onclick-button {
-  font-size: 50px;
-  border-radius: 10px ;
-  background: #307fe6;
-  color: #d7cbf7;
-  cursor: pointer;
-  text-align: center;
-  
-  border: 1px solid #fbff04;
-  
+    font-size: 50px;
+    border-radius: 10px;
+    background: #307fe6;
+    color: #d7cbf7;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #fbff04;
 }
 
 h1 {
-  font-size: 50px;
-  border-radius: 30px;
+    font-size: 50px;
+    border-radius: 30px;
     width: 75%;
-  text-align: center;
-  background: #9d9aa5;
-  
-  border: .5px solid #fbff04;
+    text-align: center;
+    background: #9d9aa5;
+    border: .5px solid #fbff04;
 }
 
-.home{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 95%;
-  width: 75%;
-  
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 75%;
 }
-
-
