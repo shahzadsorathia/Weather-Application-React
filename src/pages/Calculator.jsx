@@ -25,9 +25,17 @@ function Calculator() {
                 />
             </div>
             <div className="button-on">
+
+                {/* function too call add  */}
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 + Num2)}> Add </button> </div>
+
+                {/* function too call subtraction  */}
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 - Num2)}> Sub </button> </div>
+
+                {/* function too call multiplication  */}
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 * Num2)}> Mul </button> </div>
+
+                {/* function too call divison   */}
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button> </div>
             </div>
             <h1> {total}</h1>
