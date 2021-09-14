@@ -52,9 +52,7 @@ const Weather = () => {
           onKeyPress={search}
         />
       </div>
-
       {(typeof weather.main != "undefined") ? (
-
         <div>
           {/* City Name display */}
           <div className="locationbox">
@@ -70,7 +68,7 @@ const Weather = () => {
           </div>
         </div>
       ) : ('')}
-      
+
 
     </div>
 
