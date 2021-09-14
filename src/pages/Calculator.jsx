@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 function Calculator() {
 
+    // declaring varibale and usestate
     const [Num1, SNum1] = useState(0);
     const [Num2, SNum2] = useState(0);
     const [total, Stotal] = useState(Num1 + Num2);
@@ -9,7 +10,7 @@ function Calculator() {
     return (
         <div className="Calculator">
             <h1>  Basic Calculator </h1>
-
+            {/* input box  */}
             <div className="Input">
                 <input type="number"
                     className="input-box"
@@ -24,6 +25,7 @@ function Calculator() {
                     placeholder="0"
                 />
             </div>
+
             <div className="button-on">
 
                 {/* function too call add  */}
@@ -37,6 +39,7 @@ function Calculator() {
 
                 {/* function too call divison   */}
                 <div> <button className="onclick-button" onClick={() => Stotal(Num1 / Num2)}> Div </button> </div>
+
             </div>
             <h1> {total}</h1>
         </div>
